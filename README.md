@@ -1,4 +1,4 @@
-# vue-app
+# @xiangnanscu/video
 
 ## Project setup
 ```

@@ -12,7 +12,7 @@ module.exports = defineConfig({
   lintOnSave: true,
   parallel: true,
   integrity: true,
-  publicPath: process.env.NODE_ENV === "production" ? "/vue-app/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/video/" : "/",
   configureWebpack: {
     devServer: {
       onBeforeSetupMiddleware: ({ app }) => {

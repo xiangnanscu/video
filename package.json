@@ -1,8 +1,9 @@
 {
-  "name": "vue-app",
+  "name": "@xiangnanscu/video",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "release":"npm run build && git add . && git commit -am 'release' && git push",
     "serve": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service serve",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service build",
     "lint": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service lint"
@@ -25,9 +26,9 @@
     "zlib": "^1.0.5"
   },
   "author": {
-    "name": "Vinayak Kulkarni",
-    "email": "inbox.vinayak@gmail.com",
-    "url": "https://vinayakkulkarni.dev"
+    "name": "xiangnanscu",
+    "email": "280145668@qq.com",
+    "url": "https://xiangnanscu.cn"
   },
   "license": "MIT",
   "engines": {
